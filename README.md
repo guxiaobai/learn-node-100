@@ -18,6 +18,9 @@ brew install node@18
 ```bash
 fish_add_path /usr/local/opt/node@18/bin
 ```
+## 视频
+
+* [320 Node.js从零开发Web Server博客项目 - 慕课网](./imooc-320)
 
 ## Ref
 
