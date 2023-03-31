@@ -8,6 +8,9 @@
 npm config set registry=https://registry.npmmirror.com
 ```
 
+## Commands
+
+* [npm view](https://docs.npmjs.com/cli/v7/commands/npm-view)
 
 ## Ref
 
