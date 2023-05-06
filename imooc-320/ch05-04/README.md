@@ -2,4 +2,11 @@
 
 |本期版本| 上期版本
 |:---:|:---:
-`Tue May 10 09:31:59 CST 2022` | `-`
+`Sat May  6 12:16:22 CST 2023` | `-`
+
+```bash
+mysql -u root -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by '';"
+```
+## Ref
+
+* `mysql`

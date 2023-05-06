@@ -2,7 +2,7 @@
 
 |本期版本| 上期版本
 |:---:|:---:
-`Fri May 13 10:03:45 CST 2022` | `-`
+`Sat May  6 12:05:24 CST 2023` | `-`
 
 > `bin/www.js`
 
@@ -25,3 +25,7 @@ const serverHandle = (req, res)=> {
 }
 module.exports = serverHandle
 ```
+
+## Ref
+
+* `cross-env`、`nodemon` 

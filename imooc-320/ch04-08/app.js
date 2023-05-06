@@ -13,8 +13,6 @@ function getFileContent(fileName){
   return promise
 }
 
-getFileContent('a.json').then(aD)
-
 getFileContent('a.json').then(aData => {
     console.log('a data', aData)
     return getFileContent(aData.next)
