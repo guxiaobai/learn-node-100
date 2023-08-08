@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  vars:
+    node_version: 18.x
+
+  tasks:
+    - include_tasks: nodesource/main.yml
+    - include_tasks: yarn/main.yml
