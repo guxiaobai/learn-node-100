@@ -4,20 +4,6 @@
 |:---:|:---:
 `Sun Mar 19 13:44:00 CST 2023` | -
 
-
-## macOS
-
-> `Big Sur`、`Ventura`
-
-```bash
-brew install node@18
-```
-
-> `fish`
-
-```bash
-fish_add_path /usr/local/opt/node@18/bin
-```
 ## 视频
 
 * [146 Node.js入门到企业Web开发中的应用 - 慕课网](./imooc-146)
@@ -26,7 +12,6 @@ fish_add_path /usr/local/opt/node@18/bin
 
 ## Ref
 
-* <https://nodejs.org/>
 * <https://nodejs.dev/>
 * [Node.js 18 新特性解读](https://zhuanlan.zhihu.com/p/502951532)
 
