@@ -6,7 +6,7 @@
 
 ## 视频
 
-* [146 Node.js入门到企业Web开发中的应用 - 慕课网](./imooc-146)
+
 * [320 Node.js从零开发Web Server博客项目 - 慕课网](./imooc-320)
 
 
