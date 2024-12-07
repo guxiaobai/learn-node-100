@@ -50,11 +50,6 @@
 * [`fs.createReadStream`](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fscreatereadstreampath-options)
 * [`fs.createWriteStream`](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fscreatewritestreampath-options)
 
-## Path
-
-* [`path.resolve`](https://nodejs.org/dist/latest-v16.x/docs/api/path.html#pathresolvepaths)
-* [`path.join`](https://nodejs.org/dist/latest-v16.x/docs/api/path.html#pathjoinpaths)
-
 
 ## Process
 
