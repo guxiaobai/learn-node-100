@@ -34,12 +34,6 @@
 
 * [`writable.write`](https://nodejs.org/dist/latest-v16.x/docs/api/stream.html#writablewritechunk-encoding-callback)
 
-## Events
-
-
-### `EventEmitter`
-
-* [`emitter.on`](https://nodejs.org/dist/latest-v16.x/docs/api/events.html#emitteroneventname-listener)
 
 
 ## File system
