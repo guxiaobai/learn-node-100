@@ -36,15 +36,6 @@
 
 
 
-## File system
-
-### `Callback API`
-
-* ~~[`fs.exists`](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fswritefilefile-data-options-callback)~~
-* [`fs.createReadStream`](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fscreatereadstreampath-options)
-* [`fs.createWriteStream`](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fscreatewritestreampath-options)
-
-
 ## Process
 
 * [`process.stdin`](https://nodejs.org/dist/latest-v16.x/docs/api/process.html#processstdin)
