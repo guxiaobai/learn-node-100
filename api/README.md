@@ -21,25 +21,8 @@
 * [`response.end`](https://nodejs.org/dist/latest-v16.x/docs/api/http.html#responseenddata-encoding-callback)
 * [`response.write`](https://nodejs.org/dist/latest-v16.x/docs/api/http.html#responsewritechunk-encoding-callback)
 
-## Stream
-
-> All streams are instances of `EventEmitter`
-
-### `stream.Readable`
-
-* Event: [`data`](https://nodejs.org/dist/latest-v16.x/docs/api/stream.html#event-data)、[`end`](https://nodejs.org/dist/latest-v16.x/docs/api/stream.html#event-end)
-* [`readable.pipe`](https://nodejs.org/dist/latest-v16.x/docs/api/stream.html#readablepipedestination-options)
-
-### `stream.Writable`
-
-* [`writable.write`](https://nodejs.org/dist/latest-v16.x/docs/api/stream.html#writablewritechunk-encoding-callback)
 
 
-
-## Process
-
-* [`process.stdin`](https://nodejs.org/dist/latest-v16.x/docs/api/process.html#processstdin)
-* [`process.stdout`](https://nodejs.org/dist/latest-v16.x/docs/api/process.html#processstdout)
 
 ## Readline
 
