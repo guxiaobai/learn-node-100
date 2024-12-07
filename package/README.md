@@ -15,7 +15,6 @@
 [mysql](https://github.com/mysqljs/mysql)、[mysql2](https://github.com/sidorares/node-mysql2) | MySQL 
 [redis](https://github.com/redis/node-redis)  | Redis
 [xss](https://github.com/leizongmin/js-xss) | 根据白名单过滤HTML(防止XSS攻击)
-[chalk](https://github.com/chalk/chalk) |  彩色命令行
 [pm2](https://www.npmjs.com/package/pm2) | 服务器进程管理
 [path-to-regexp](https://github.com/pillarjs/path-to-regexp) | `url路由匹配`
 [node-glob](https://github.com/isaacs/node-glob) | `文件匹配`

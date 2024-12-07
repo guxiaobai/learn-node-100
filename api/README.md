@@ -46,8 +46,6 @@
 
 ### `Callback API`
 
-* [`fs.readFile`](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fsreadfilepath-options-callback)
-* [`fs.writeFile`](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fswritefilefile-data-options-callback)
 * ~~[`fs.exists`](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fswritefilefile-data-options-callback)~~
 * [`fs.createReadStream`](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fscreatereadstreampath-options)
 * [`fs.createWriteStream`](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fscreatewritestreampath-options)
@@ -57,9 +55,6 @@
 * [`path.resolve`](https://nodejs.org/dist/latest-v16.x/docs/api/path.html#pathresolvepaths)
 * [`path.join`](https://nodejs.org/dist/latest-v16.x/docs/api/path.html#pathjoinpaths)
 
-## Modules: CommonJS modules
-
-* [`__dirname`](https://nodejs.org/dist/latest-v16.x/docs/api/modules.html#__dirname)
 
 ## Process
 
