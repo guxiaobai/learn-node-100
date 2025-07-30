@@ -1,0 +1,24 @@
+---
+- hosts: all
+  become: yes
+
+  tasks:
+  - name: Add NodeSource Key
+    apt_key:
+      url: https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key
+      keyring: /usr/share/keyrings/nodesource.gpg
+      state: present
+
+
+  - name: Add NodeSource Repo
+    apt_repository:
+      repo: "{{ item }}"
+      state: present
+      filename: nodesource
+    with_items:
+      - deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_22.x nodistro main
+
+  - name: Install Node.js
+    apt:
+      name: nodejs
+      state: present
