@@ -12,7 +12,7 @@
   with_items:
     - deb https://dl.yarnpkg.com/debian/ stable main
 
-- name: Install Node.js
+- name: Install Yarn
   apt:
     name: yarn
     state: present
