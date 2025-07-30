@@ -1,0 +1,23 @@
+---
+- hosts: all
+  become: yes
+
+  tasks:
+  - name: Add Yarn Key
+    apt_key:
+      url: https://dl.yarnpkg.com/debian/pubkey.gpg
+      keyring: /usr/share/keyrings/yarn.gpg
+      state: present
+
+  - name: Add Yarn Repo
+    apt_repository:
+      repo: "{{ item }}"
+      state: present
+      filename: yarn
+    with_items:
+      - deb [signed-by=/usr/share/keyrings/yarn.gpg] https://dl.yarnpkg.com/debian/ stable main
+
+  - name: Install Yarn
+    apt:
+      name: yarn
+      state: present
