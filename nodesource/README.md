@@ -25,5 +25,6 @@ echo 'deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesou
 
 ## Ref
 
-* <https://nodejs.org/en/download/package-manager#debian-and-ubuntu-based-linux-distributions>
+* ~~<https://nodejs.org/en/download/package-manager#debian-and-ubuntu-based-linux-distributions>~~
+* <https://github.com/nodesource/distributions/wiki/Repository-Manual-Installation>
 * <https://github.com/nodesource/distributions>
